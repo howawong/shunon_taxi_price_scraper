@@ -25,7 +25,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-#import scraperwiki
+import scraperwiki
 from datetime import datetime
 import pytz
 req = requests.get('http://www.shunon.com.hk/pricing.php')
